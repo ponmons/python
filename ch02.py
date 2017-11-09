@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import keyword
+import keyword # 모듈 (파이썬 예약어 목록)
 
 print keyword.kwlist
 print
@@ -23,9 +23,9 @@ print type(-1)
 print type('abc')  
 print type([1,2,3])     # 임의의 객체 object의 자료형을 반환
 
-_a=10           # 동적 변수에 값을 할당.. 타입 선언이 없네.
+_2a=10           # 동적 변수에 값을 할당.. 타입 선언이 없네.
 _A=20
-print _a,_A
+print _2a,_A
 
 b=2
 print b 
@@ -36,6 +36,19 @@ del b
 a=1
 b=3
 if(a==1) and \
-(b==3) :
+(b==3) :      # \ 하나의 줄로 이어주는 역할.
     print 'connected lined'
 
+# 확장 할당문
+a=1
+a +=4
+print a
+
+# 콘솔 입력
+r = int(raw_input('int r : '))
+print r
+# 콘솔 출력 
+print 1; print 2 , r*2*3.14
+
+result= range(2, 99, 2)
+print result
