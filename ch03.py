@@ -28,7 +28,7 @@ import math
 print math.pi
 print math.e
 print math.sin(1.0)
-print math.sqrt(2)  # 2의 제곱
+print math.sqrt(2)  # 2의 제곱근
 
 # 문자열 인덱싱과 슬라이싱
 s="Hello World!"
